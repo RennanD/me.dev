@@ -47,33 +47,10 @@ module.exports = {
         950: '#09090A',
       },
     },
-
     fontFamily: {
-      sans: ['var(--font-fira-code)', 'sans-serif'],
+      sans: ['var(--font-fira)', 'sans-serif'],
     },
-
-    extend: {
-      backgroundImage: {
-        card: `linear-gradient(180deg, #202024 0%, rgba(32, 32, 36, 0.2) 100%)`,
-        shadow: `linear-gradient(210.76deg, rgba(18, 18, 20, 0.3) 62.11%, rgba(50, 50, 56, 0.3) 100%)`,
-        border: `linear-gradient(180deg, rgba(50,50,56,1) 0%, rgba(50,50,56,0.3) 100%)`,
-        divider: `radial-gradient(50.01% 103536054.54% at 50% 48.73%, rgba(80, 80, 89, 0.5) 0%, rgba(80, 80, 89, 0) 100%)`,
-        'divider-icon': `linear-gradient(180deg, #464649 0%, rgba(50, 50, 56, 0.3) 100%)`,
-        'border-shadow': `linear-gradient(227.16deg, rgba(18, 18, 20, 0) 58.97%, rgba(80, 80, 89, 0.5) 100%)`,
-      },
-      boxShadow: {
-        base: `0px 2px 32px -1px rgba(0, 0, 0, 0.32)`,
-      },
-      animation: {
-        'slide-t-b': 'slide-t-b 300ms ease-in',
-      },
-      keyframes: {
-        'slide-t-b': {
-          '0%': { opacity: 0, transform: 'translateY(-100%)' },
-          '100%': { opacity: 1, transform: 'translateY(0)' },
-        },
-      },
-    },
+    extend: {},
   },
-  plugins: [require('tailwindcss-radix')()],
+  plugins: [],
 };
