@@ -25,7 +25,7 @@ module.exports = {
         500: '#FF79C6',
       },
       purple: {
-        500: '#Purple',
+        500: '#988BC7',
       },
       red: {
         500: '#E96379',
@@ -50,7 +50,11 @@ module.exports = {
     fontFamily: {
       sans: ['var(--font-fira)', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      transitionProperty: {
+        width: 'width',
+      },
+    },
   },
   plugins: [],
 };
