@@ -1,4 +1,6 @@
 /* eslint-disable @typescript-eslint/quotes */
+import 'keen-slider/keen-slider.min.css';
+
 import type { AppProps } from 'next/app';
 import { Fira_Code } from '@next/font/google';
 import '@/styles/globals.css';
@@ -15,6 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <div className={`${firaCode.variable} font-sans`}>
       <Header />
       <Component {...pageProps} />
+      <footer className="h-[69px]"></footer>
     </div>
   );
 }

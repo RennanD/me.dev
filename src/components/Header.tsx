@@ -73,7 +73,7 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   function handleShowMenuVisibility() {
-    setIsMenuOpen((oldState) => !oldState);
+    // setIsMenuOpen((oldState) => !oldState);
   }
 
   return (
